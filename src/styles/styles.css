@@ -8,6 +8,18 @@ ul{
   margin: 0px;
 }
 
+  .mainCointener{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .mainCointener > main{
+    height: 100vh;
+  }
+  .mainCointener > footer {
+    background-color: red;
+    padding: 10px;
+  }
 .navbar{
   display: flex;
   justify-content: space-between;
